@@ -13,6 +13,7 @@ end
 
 group :kitchen_common do
   gem 'test-kitchen', '~> 1.2'
+  gem 'kitchen-sync'
 end
 
 group :kitchen_vagrant do
