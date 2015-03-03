@@ -48,3 +48,5 @@ default['chef-server']['api_fqdn'] = node['fqdn']
 #     )
 #
 default['chef-server']['configuration'] = {}
+
+default['chef-server']['add_ons'] = %w{ opscode-manage }
